@@ -1,0 +1,24 @@
+dispatch of the item:
+
+pre-request
+
+item selected
+
+profile details
+
+scenario:
+
+1.Mode of payment
+
+2.Getting the card details
+
+3.Verifying the card
+
+4.Succesfull verifivation it will detect the item value from the card
+
+5.Order item succesfully
+
+6.Message order details to customer
+
+7.Dispatch schedule
+
