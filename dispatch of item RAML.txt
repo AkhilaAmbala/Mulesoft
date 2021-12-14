@@ -1,0 +1,35 @@
+#%RAML 1.0
+title: Item-api
+description: dispatch of item api
+baseUri: http://localhost:https://anypoint.mulesoft.com/mocking/api/v1/sources/vcs/projects/b5e6560a-4f3a-4724-8c99-401c31d59faf/master/m/add-item/item-dir/add-item/ # baseUri: //localhost:8081/item-dir/add-item/
+
+/add-item:
+  post:
+    description: add item
+    body:
+      application/json:
+        example:
+         {
+            "item_id":100,
+            "card_no":2345 6789 1234,
+            "Card_type":"debit",
+            "Card_Username":"Akhila",
+            "Status":"A"
+         }
+    responses:
+     200:
+      body:
+        application/json:
+          example:
+            {
+              "status":200
+              "message":"Success"
+            }
+     500:
+       body:
+         application/json:
+           example:
+             {
+               "status":500
+               "message":"Internal server error"
+             }
