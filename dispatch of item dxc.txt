@@ -1,24 +1,20 @@
 dispatch of the item:
 
-pre-request
+pre-request:
 
-item selected
+     item selected
 
-profile details
+     profile details
 
 scenario:
 
-1.Mode of payment
+1.Mode of payment and Getting the card details
 
-2.Getting the card details
+2.Verifying the card and Succesfull verification it will detect the item value from the card
 
-3.Verifying the card
+3.Order item succesfully
 
-4.Succesfull verifivation it will detect the item value from the card
+4.Message order details to customer
 
-5.Order item succesfully
-
-6.Message order details to customer
-
-7.Dispatch schedule
+5.Dispatch schedule
 
